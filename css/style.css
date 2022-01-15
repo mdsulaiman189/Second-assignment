@@ -256,6 +256,7 @@ p {
 .product-img img {
     width: 400px;
     height: 270px;
+    border-radius: 20px;
 }
 
 .product-title {
@@ -432,7 +433,7 @@ p {
         display: grid;
         grid-template-columns: auto;
         width: 100%;
-        padding: 0;
+        padding: 0 0px;
         align-items: center;
         justify-content: center;
 
