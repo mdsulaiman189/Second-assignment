@@ -366,12 +366,10 @@ p {
     }
 
     .influencer-img>img {
-        width: 80%;
+        width: 100%;
     }
 
-    .influencer-img {
-        width: 80%;
-    }
+
 
     .container-1 {
         display: grid;
