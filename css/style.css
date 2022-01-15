@@ -366,7 +366,11 @@ p {
     }
 
     .influencer-img>img {
-        width: 90%;
+        width: 80%;
+    }
+
+    .influencer-img {
+        width: 80%;
     }
 
     .container-1 {
