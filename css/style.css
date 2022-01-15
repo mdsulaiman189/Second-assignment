@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;900&family=Montserrat+Alternates:wght@400;500;600;800;900&family=Montserrat:wght@400;600;900&family=Oswald&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
 /* MONTSERRAT FONTS  */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;700;900&family=Montserrat+Alternates:wght@400;500;600;800;900&family=Montserrat:wght@400;600;900&family=Oswald&family=Poppins:wght@400;500;600;700&display=swap');
+/* font-family: 'Poppins', sans-serif;  */
 
 body {
     font-family: 'Montserrat ', sans-serif;
@@ -24,7 +26,7 @@ p {
 .navigation-bar {
     display: flex;
     justify-content: space-between;
-    margin: 0;
+    margin-top: 40px;
     padding: 0 150px;
 }
 
@@ -41,10 +43,10 @@ p {
 .Menu-item a {
     text-decoration: none;
     padding-right: 20px;
-    font-family: ' Montserrat ', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    font-weight: 600;
-    color: #7c0ff8;
+    font-weight: 700;
+    color: #615D5D;
 
 }
 
@@ -68,38 +70,40 @@ p {
 }
 
 .influencer-title {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
-    color: #9c45ff;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    color: #424242;
     width: 650px;
 
 
 }
 
 .influencer-details {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #964de9;
+    color: #4e4e4e;
 
 }
 
 .influencer-button {
-    border-radius: 9px;
-    font-size: 20px;
+    border-radius: 50px;
+    font-size: 16px;
     color: #fdfdfd;
-    background-color: #7c0ff8;
-    padding: 10px 20px;
+    background-color: #E22E6D;
+    padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    border: 2px #7c0ff8 solid;
+    border: 2px #eeeeee solid;
 }
 
 .influencer-button:hover {
-    background-color: #FB8200;
-    color: black;
+    background-color: #ff085e;
+    color: rgb(255, 255, 255);
     transition: 0.5s all;
 }
 
@@ -166,7 +170,7 @@ p {
     font-size: 40px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #9c45ff;
+    color: #3A3A3A;
     text-align: center;
 }
 
@@ -174,7 +178,7 @@ p {
     font-size: 18px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    color: #9c45ff;
+    color: #2c2c2c;
 }
 
 .image-box-rate {
@@ -183,15 +187,16 @@ p {
 
 .dollars {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 600;
     font-family: ' Montserrat Alternates', sans-serif;
+    color: #3A3A3A;
 
 }
 
 .image-box-rating {
     display: flex;
     color: #FB8200;
-    width: 16px;
+    width: 14px;
     height: 16px;
 }
 
@@ -202,10 +207,9 @@ p {
 
 .image-box-info {
     font-size: 14px;
-
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #964de9;
+    color: #3A3A3A;
 }
 
 .read-info {
@@ -216,14 +220,14 @@ p {
 
 .read-info a {
     text-decoration: none;
-    color: #9C45FF;
+    color: #E02C6D;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
 
 .right-arrow {
-    color: #9C45FF;
+    color: #E02C6D;
     font-weight: 700;
 }
 
@@ -257,7 +261,7 @@ p {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #9c45ff;
+    color: #0A0826;
 
 }
 
@@ -265,26 +269,26 @@ p {
     font-size: 14px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    color: #964de9;
+    color: #3A3A3A;
 }
 
 .product-button {
 
-    border-radius: 9px;
-    font-size: 20px;
+    border-radius: 50px;
+    font-size: 16px;
     color: #fdfdfd;
-    background-color: #7c0ff8;
-    padding: 10px 20px;
+    background-color: #E02C6D;
+    padding: 10px 30px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    border: 2px #7c0ff8 solid;
+    border: 2px #E02C6D solid;
 
 }
 
 .product-button:hover {
-    background-color: #FB8200;
-    color: black;
+    background-color: #ff005d;
+    color: rgb(255, 255, 255);
     transition: 0.5s all;
 }
 
@@ -308,7 +312,7 @@ p {
 .footer-section {
 
     padding: 50px 150px;
-    background-color: #7c0ff8;
+    background-color: #0A0826;
 
 }
 
@@ -321,10 +325,8 @@ p {
 
 .icons a {
     font-size: 30px;
-    /* border-radius: 48%; */
     padding: 13px;
     color: #ffffff;
-    /* background-color: white; */
     width: 50px;
     height: 50px;
 }
