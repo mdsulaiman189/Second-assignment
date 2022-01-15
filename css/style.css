@@ -342,7 +342,8 @@ p {
         width: 100%;
         display: grid;
         grid-template-columns: auto;
-        padding: 20px 25px;
+        padding: 0px 1px;
+        text-align: center;
 
     }
 
@@ -353,10 +354,11 @@ p {
     .Menu-item a {
         font-size: 15px;
         margin-top: 20px;
+        text-align: center;
     }
 
     .cart-site {
-        padding-left: 2px;
+        display: none;
 
     }
 
@@ -366,15 +368,16 @@ p {
     }
 
     .influencer-img>img {
-        width: 100%;
+        width: 78%;
     }
 
     .container-1 {
         display: grid;
         grid-template-columns: auto;
-        padding: 20px 30px;
+        padding: 20px 10px;
         width: 100%;
     }
+
 
     .influencer-title {
         width: 390px;
@@ -395,21 +398,21 @@ p {
         font: 50px;
     }
 
-    .influencer-img {
+    /* .influencer-img {
         width: 40%;
         height: 40%;
-    }
+    } */
 
-    .imgg {
+    /* .imgg {
         width: 350;
         height: auto;
         text-align: center;
-    }
+    } */
 
     .company-images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 20px;
+        /* grid-column-gap: 20px; */
         padding-top: 120px;
         padding-right: 20px;
         padding-left: 20px;
@@ -575,22 +578,20 @@ p {
         display: grid;
         grid-template-columns: auto auto;
         width: 100%;
-        padding: 20px 50px;
+        padding: 20px 30px;
         align-items: center;
         justify-content: center;
     }
 
     .product-img img {
-        /* align-items: center;
-        justify-content: center; */
         text-align: center;
         width: 80%;
         height: 80%;
     }
 
     .product-info {
-        text-align: center;
-        padding: 40px 40px;
+        padding: 40px 20px;
+
     }
 
     .product-title {
