@@ -365,9 +365,9 @@ p {
         text-align: center;
     }
 
-    /* .influencer-img>img {
-        width: 78%;
-    } */
+    .influencer-img>img {
+        width: 90%;
+    }
 
     .container-1 {
         display: grid;
