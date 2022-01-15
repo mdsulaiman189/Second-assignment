@@ -365,6 +365,10 @@ p {
         text-align: center;
     }
 
+    .influencer-img>img {
+        width: 100%;
+    }
+
     .container-1 {
         display: grid;
         grid-template-columns: auto;
